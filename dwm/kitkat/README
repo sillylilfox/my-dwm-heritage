@@ -1,4 +1,14 @@
 What is this?
-  -Kitkat is a custom tool made for generating a status bar.
-  -It was meant to be a high quality status bar
-  
+  -Kitkat is a fun status tool i made while eating kitkat
+  -Again, you are free to use and configure it based on your needs.
+
+Why are so many functions broken or not implemented yet?
+  -I only implemented the functions i use. If you can add some other functionalities, do so.
+
+How to use it?
+  - kitkat <output> <delay> <format string>
+  an example:
+  ```kitkat stdout 1 "%b|%c|%r"```
+
+Any plans towards working on it?
+  -Not really. But i am planning towards starting to use dwm again. Maybe more polished versions will be available.
