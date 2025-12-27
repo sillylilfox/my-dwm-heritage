@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
         update_tags(tags);
         build_status(format, tags, 9, status, sizeof(status));
         
-        /*Do whatever you want to do here. By default, the status is forwarded to stdout.*/
+        /*Do whatever you want to do here. The code's heart is here*/
         jump_table[jt](status);
 
         sleep(refreshtime);
